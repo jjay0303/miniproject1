@@ -1,0 +1,26 @@
+#play{
+    display: none;
+}
+
+.question{
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 80%;
+}
+
+.answerList{
+    background-color: whitesmoke;
+    text-align: center;
+    display: block;
+    width: 80%;
+    border: 0px;
+    font-size: 18px;
+}
+
+.answerList:hover, .answerList:focus{
+    background-color: mediumpurple;
+    color: whitesmoke;
+    font-weight: bolder;
+}

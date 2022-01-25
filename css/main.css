@@ -1,9 +1,14 @@
-body{
-    background-color: rgb(68, 255, 193);
-  }
 
 #main{
-    color: midnightblue;
-    width: 100%;
-    text-align: center;
-  }
+  background-color: whitesmoke;
+  color: midnightblue;
+  width: 80%;
+  text-align: center;
+}
+*{
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Jua', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
