@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>재미로 보는 심리테스트</title>
-
+    <title>재미로 해보는 심리테스트</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -13,14 +12,15 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/qna.css">
     <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/result.css">
 
 </head>
 <body>
     <div class="conainter-fluid">
-        <section id="main" class="mx-auto mt-5 py-5 px-6">
-            <h1>당신의 10년후 모습은? 당신의 미래를 알려드립니다</h1>
+        <section id="main" class="mx-auto my-5 py-5 px-3">
+            <h1>당신의 인생관을 맞춰 보겠다! 가보자고!</h1>
             <div class="col-6 mx-auto">
-                <img src="./image/go.jpg" alt="mainImg" class="img-floid">
+                <img src="./image/img9.jpg" alt="mainImg" class="img-floid">
             </div>
             <button type="button" class="btn btn-primary btn-lg btn-danger" onclick="js:begin()">start</button>
         </section>
@@ -29,23 +29,24 @@
             <div class="question my-5 py-3 mx-auto"></div>
             <div class="answer"></div>
         </section>
-        <script type="text/javascript" src="./js/data.js" charset="utf-8"></script>
-        <script type="text/javascript" src="./js/start.js" charset="utf-8"></script>
     
-        <section id="result">
+        <section id="result" class="mx-auto my-5 py-5 px-3">
             <h1>당신의 결과는...</h1>
             <div class="resultTitle">
 
             </div>
             <div class="col-6 mx-auto" id="resultImg">
+
             </div>
             <div class="resultContent">
                 
             </div>
-            <button type="button">start</button>
+            <button type="button">공유하기</button>
         </section>
     </div>
 
+    <script type="text/javascript" src="./js/data.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/start.js" charset="utf-8"></script>
 
     </div>
 </body>
