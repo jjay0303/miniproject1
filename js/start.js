@@ -92,6 +92,8 @@ function printResult(){
     const imgDiv = document.querySelector('#resultImg');
     var imgURL = 'image/img' + (idx+1) + '.jpg';
     resultImg.src = imgURL;
+    resultImg.alt = idx;    
+    resultImg.classList.add('img-fluid');
     imgDiv.appendChild(resultImg);
 
     const resultContent = document.querySelector('.resultContent');
@@ -146,3 +148,4 @@ function calResult(){
     return result;
     console.log(result);
 }
+
