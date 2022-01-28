@@ -1,3 +1,10 @@
 #result{
     display: none;
+    background-color: whitesmoke;
+    color: midnightblue;
+    width: 80%;
+    text-align: center;
 }
+
+.resultTitle{font-size: 28px;}
+.resultContent{font-size: 24px;}
